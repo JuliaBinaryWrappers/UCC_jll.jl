@@ -1,110 +1,99 @@
 [[UCC]]
 arch = "x86_64"
 cuda = "none"
-git-tree-sha1 = "939470412b64ee7b86d12214cbe75efbfab096b1"
+git-tree-sha1 = "a177f8df0566ec4bb6e7d451d1fbc5b189345ccd"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[UCC.download]]
-    sha256 = "eb731b8704c6001eab27cd31b6e1b3836350c75c5fe9702f2a0079681740e047"
-    url = "https://github.com/JuliaBinaryWrappers/UCC_jll.jl/releases/download/UCC-v1.6.0+0/UCC.v1.6.0.x86_64-linux-gnu-cuda+none.tar.gz"
+    sha256 = "b6825b175ddf068461888d88456a1bf52c07fe5d165b6afe50da3ba31780486b"
+    url = "https://github.com/JuliaBinaryWrappers/UCC_jll.jl/releases/download/UCC-v1.8.0+0/UCC.v1.8.0.x86_64-linux-gnu-cuda+none.tar.gz"
 [[UCC]]
 arch = "aarch64"
 cuda = "none"
-git-tree-sha1 = "ff5da019c13c939573f820f5bf5a6b024426f65b"
+git-tree-sha1 = "c11974ee65181d09d4d9a959507dd6a0aa7af8af"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[UCC.download]]
-    sha256 = "ddb94bba47487bc147de27176f817aa10acd402d9d5f0605b3cd53373ce37870"
-    url = "https://github.com/JuliaBinaryWrappers/UCC_jll.jl/releases/download/UCC-v1.6.0+0/UCC.v1.6.0.aarch64-linux-gnu-cuda+none.tar.gz"
-[[UCC]]
-arch = "x86_64"
-cuda = "12.2"
-git-tree-sha1 = "73de159b062da8c28a3646ff33ef9267e4815812"
-lazy = true
-libc = "glibc"
-os = "linux"
-
-    [[UCC.download]]
-    sha256 = "c13f0ff9fcb8d3b48ff64fcc9e9f644ae74e1c3634cc0398836a815dab8bd36b"
-    url = "https://github.com/JuliaBinaryWrappers/UCC_jll.jl/releases/download/UCC-v1.6.0+0/UCC.v1.6.0.x86_64-linux-gnu-cuda+12.2.tar.gz"
+    sha256 = "c20dac834b851705f24d51f8d26c6add4c3332e7194ee7d82a3a2cfda6525696"
+    url = "https://github.com/JuliaBinaryWrappers/UCC_jll.jl/releases/download/UCC-v1.8.0+0/UCC.v1.8.0.aarch64-linux-gnu-cuda+none.tar.gz"
 [[UCC]]
 arch = "x86_64"
 cuda = "12.3"
-git-tree-sha1 = "c6a171d15eda2df3434964af3c5acd72c7eb1f27"
+git-tree-sha1 = "18c814eead02477be841f762c13de5e694f8275b"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[UCC.download]]
-    sha256 = "c37a417672c8442f5e167de6a183a0fbe98c8307b7c7915f46f701178c7ec012"
-    url = "https://github.com/JuliaBinaryWrappers/UCC_jll.jl/releases/download/UCC-v1.6.0+0/UCC.v1.6.0.x86_64-linux-gnu-cuda+12.3.tar.gz"
+    sha256 = "c1218beb9395fa6575cf69ab8beb5711965d4b7ab3be588370d6b07b3497d812"
+    url = "https://github.com/JuliaBinaryWrappers/UCC_jll.jl/releases/download/UCC-v1.8.0+0/UCC.v1.8.0.x86_64-linux-gnu-cuda+12.3.tar.gz"
 [[UCC]]
 arch = "x86_64"
 cuda = "12.4"
-git-tree-sha1 = "b7d22db73009e460919154ad0bd1a9f3519c99f3"
+git-tree-sha1 = "1a264f61518fd107f8d1d5f4d9f950ffd0e05375"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[UCC.download]]
-    sha256 = "653c129c7a3d690ee5a9ad8e6eacb9ba09e8466577d5240a99b03c9624652438"
-    url = "https://github.com/JuliaBinaryWrappers/UCC_jll.jl/releases/download/UCC-v1.6.0+0/UCC.v1.6.0.x86_64-linux-gnu-cuda+12.4.tar.gz"
+    sha256 = "9ca8935b91730e80506606866af15cc4786a12fce1e5516f044b2d96554c368b"
+    url = "https://github.com/JuliaBinaryWrappers/UCC_jll.jl/releases/download/UCC-v1.8.0+0/UCC.v1.8.0.x86_64-linux-gnu-cuda+12.4.tar.gz"
 [[UCC]]
 arch = "x86_64"
 cuda = "12.5"
-git-tree-sha1 = "370c0f74de5ebeef91e645c1c84283b5b1dc5a52"
+git-tree-sha1 = "084db1b5d92365e9a1d4c743a16d12a3df21b0b1"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[UCC.download]]
-    sha256 = "970438d42253a1cb425c4ca60da0f849ef2f588646d2fb1675a8d03c8f50c56a"
-    url = "https://github.com/JuliaBinaryWrappers/UCC_jll.jl/releases/download/UCC-v1.6.0+0/UCC.v1.6.0.x86_64-linux-gnu-cuda+12.5.tar.gz"
+    sha256 = "1aacba4546a6e1e8509052ad7be7a6391b3c6a542b35dc49129b3b311800c097"
+    url = "https://github.com/JuliaBinaryWrappers/UCC_jll.jl/releases/download/UCC-v1.8.0+0/UCC.v1.8.0.x86_64-linux-gnu-cuda+12.5.tar.gz"
 [[UCC]]
 arch = "x86_64"
 cuda = "12.6"
-git-tree-sha1 = "aea5a410f750c8e1abbbcc7e639fffc9619afa54"
+git-tree-sha1 = "0cfe029d3410964b69627b7991db38947f77430c"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[UCC.download]]
-    sha256 = "66a12f5d1bc98dae8a7e11e842277bf695bb0d9a65211cce60964507e3140cda"
-    url = "https://github.com/JuliaBinaryWrappers/UCC_jll.jl/releases/download/UCC-v1.6.0+0/UCC.v1.6.0.x86_64-linux-gnu-cuda+12.6.tar.gz"
+    sha256 = "9ae629795f2f7be3a075a02664ecce7a9fc5a0ba182d80680f35167fc9398f1b"
+    url = "https://github.com/JuliaBinaryWrappers/UCC_jll.jl/releases/download/UCC-v1.8.0+0/UCC.v1.8.0.x86_64-linux-gnu-cuda+12.6.tar.gz"
 [[UCC]]
 arch = "x86_64"
 cuda = "12.8"
-git-tree-sha1 = "7f62cfc42556042d8968c9f6269b069115eda1be"
+git-tree-sha1 = "a576a0e674601e853e39718b11f3db413191e6b9"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[UCC.download]]
-    sha256 = "cf5459cd3a21ecd99d696722bd3e4d6dd9a8f152925a3ad334bcc6907ef05bb6"
-    url = "https://github.com/JuliaBinaryWrappers/UCC_jll.jl/releases/download/UCC-v1.6.0+0/UCC.v1.6.0.x86_64-linux-gnu-cuda+12.8.tar.gz"
+    sha256 = "018f6c02d328934a3d1e29e61ecd955b587ef71bc1e7a2ddfaa8b640c49fce0e"
+    url = "https://github.com/JuliaBinaryWrappers/UCC_jll.jl/releases/download/UCC-v1.8.0+0/UCC.v1.8.0.x86_64-linux-gnu-cuda+12.8.tar.gz"
 [[UCC]]
 arch = "x86_64"
 cuda = "12.9"
-git-tree-sha1 = "57c20e793cf99af55f7e071c922183e09f121dbc"
+git-tree-sha1 = "6935d55f25b4eabd2f12102e994eb208261a2efa"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[UCC.download]]
-    sha256 = "e36a727a1978b4f160a3cb720b68c6295272eef12be8f147d64aadac4c0578d2"
-    url = "https://github.com/JuliaBinaryWrappers/UCC_jll.jl/releases/download/UCC-v1.6.0+0/UCC.v1.6.0.x86_64-linux-gnu-cuda+12.9.tar.gz"
+    sha256 = "7e806d66f232febaea4c57ed653b7260b93daf3e71bf29f2caed39efbd4c3847"
+    url = "https://github.com/JuliaBinaryWrappers/UCC_jll.jl/releases/download/UCC-v1.8.0+0/UCC.v1.8.0.x86_64-linux-gnu-cuda+12.9.tar.gz"
 [[UCC]]
 arch = "x86_64"
 cuda = "13.0"
-git-tree-sha1 = "9da50d5dbc650277a3bcfd0e85a4967e9185e4bf"
+git-tree-sha1 = "7f54fffa310f6ef6fc37eb0ca5c6415ff130f27c"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[UCC.download]]
-    sha256 = "8f3356e3f42ee923bcba6a4c87de020d1bf23be3819884a7d906cfaa7b771afc"
-    url = "https://github.com/JuliaBinaryWrappers/UCC_jll.jl/releases/download/UCC-v1.6.0+0/UCC.v1.6.0.x86_64-linux-gnu-cuda+13.0.tar.gz"
+    sha256 = "f74944af5a66175061c63dc3859e8bf48dc4728b9a56733eefa678f2f7a7989e"
+    url = "https://github.com/JuliaBinaryWrappers/UCC_jll.jl/releases/download/UCC-v1.8.0+0/UCC.v1.8.0.x86_64-linux-gnu-cuda+13.0.tar.gz"
