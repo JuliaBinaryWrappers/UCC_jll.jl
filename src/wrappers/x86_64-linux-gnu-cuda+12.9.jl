@@ -3,13 +3,13 @@ export libucc, ucc_info
 
 using UCX_jll
 using CompilerSupportLibraries_jll
-using CUDA_Runtime_jll
 using NCCL_jll
+using CUDA_Runtime_jll
 JLLWrappers.@generate_wrapper_header("UCC")
 JLLWrappers.@declare_library_product(libucc, "libucc.so.1")
 JLLWrappers.@declare_executable_product(ucc_info)
 function __init__()
-    JLLWrappers.@generate_init_header(UCX_jll, CompilerSupportLibraries_jll, CUDA_Runtime_jll, NCCL_jll)
+    JLLWrappers.@generate_init_header(UCX_jll, CompilerSupportLibraries_jll, NCCL_jll, CUDA_Runtime_jll)
     JLLWrappers.@init_library_product(
         libucc,
         "lib/libucc.so",
